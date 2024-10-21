@@ -1,5 +1,9 @@
 # Git basics
 
+Git is a [version control system](https://git-scm.com) that we use for many, mostly software-related projects here. This book is also controlled by Git. Git is [a bit hard and not intuitive](https://git-scm.com/book/en/v2) at first, but makes total sense once you get a handle of it. If you want to contribute to anything at ANLab, you need to learn Git.
+
+We use [GitHub](https://github.com), a Microsoft-owned online platform to store Git repositories.
+
 ## Prerequisites
 
 1. Sign up for a Github account

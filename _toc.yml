@@ -10,6 +10,7 @@ parts:
     - file: lab_basics/git
     - file: lab_basics/mattermost
     - file: lab_basics/vscode
+    - file: lab_basics/zotero
   - caption: Using EEG
     chapters:
     - file: eeg_setup/eeg_basics
