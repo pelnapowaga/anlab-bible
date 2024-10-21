@@ -3,7 +3,27 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Lab basics
+    chapters:
+    - file: lab_basics/get_in
+    - file: lab_basics/git
+    - file: lab_basics/mattermost
+    - file: lab_basics/vscode
+  - caption: Using EEG
+    chapters:
+    - file: eeg_setup/eeg_basics
+    - file: eeg_setup/eeg_signals
+    - file: eeg_setup/general_workflow
+    - file: eeg_setup/computers
+    - file: eeg_setup/handling_electrodes
+  - caption: EEG analysis
+    chapters:
+    - file: eeg_analysis/mne_overview
+    - file: eeg_analysis/interpolation_rejection
+    - file: eeg_analysis/ICA
+    - file: eeg_analysis/standard_preprocessing
+    - file: eeg_analysis/ERPs
+  - caption: Software
+    chapters:
+    - file: software/python_basics
