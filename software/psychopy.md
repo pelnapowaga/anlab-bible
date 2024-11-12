@@ -6,25 +6,25 @@
 
 To get it to work you need to install it within a Conda environment that emulates Python 3.10 for x86 with Rosetta. Let's make an environment called `psychopy` first:
 
-```shell
+```console
 conda create -n psychopy -y
 conda activate psychopy
 ```
 
 Then, make sure that all packages installed into the environment are for x86:
 
-```shell
+```console
 conda config --env --set subdir osx-64
 ```
 
 Next, install Python 3.10:
 
-```shell
+```console
 conda install python=3.10
 ```
 
 Finally, use pip to install Psychopy:
 
-```shell
+```console
 pip install psychopy
 ```
