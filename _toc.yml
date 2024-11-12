@@ -28,3 +28,4 @@ parts:
   - caption: Software
     chapters:
     - file: software/python_basics
+    - file: software/psychopy
